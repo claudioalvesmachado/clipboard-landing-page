@@ -20,3 +20,25 @@
         }
     }
 }
+
+@media (min-width: 1400px) {
+    
+    .features {
+        max-width: 144rem;
+
+        &-snippets {
+            display: flex;
+            align-items: center;
+            text-align: left;
+
+            &__img {
+                margin-left: -6.4rem;
+            }
+
+            &-content {
+                max-width: 40rem;
+                margin-right: 24rem;
+            }
+        }
+    }
+}
