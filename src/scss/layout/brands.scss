@@ -8,3 +8,15 @@
         margin: 3.2rem auto;
     }
 }
+
+@media (min-width: 1400px) {
+
+    .brands  {
+        display: inline-block;
+        justify-content: space-between;
+
+        &__logo {
+            max-width: 15%;
+        }
+    }
+}

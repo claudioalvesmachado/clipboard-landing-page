@@ -19,3 +19,19 @@
         }
     }
 }
+
+@media (min-width: 1400px) {
+
+    .tools {
+
+        &-articles {
+            display: flex;
+            justify-content: center;
+            margin: auto;
+
+            &-item {
+                max-width: 40rem;
+            }
+        }
+    }
+}
