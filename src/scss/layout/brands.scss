@@ -12,11 +12,10 @@
 @media (min-width: 1400px) {
 
     .brands  {
-        display: inline-block;
-        justify-content: space-between;
-
+        flex-direction: row;
+        align-items: center;
         &__logo {
-            max-width: 15%;
+            max-width: 16rem;
         }
     }
 }
