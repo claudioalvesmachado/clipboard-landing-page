@@ -1,6 +1,8 @@
 .download {
     display: flex;
     flex-direction: column;
+    max-width: 56rem;
+    margin: auto;
 
     &__btn {
         font-size: $sm-font;
@@ -28,5 +30,13 @@
             background-color: $secondary-color;
             box-shadow: 0 .3rem $secondary-color-d;
         }
+    }
+}
+
+@media (min-width: 760px) {
+    
+    .download {
+        flex-direction: row;
+        column-gap: 1.6rem;
     }
 }
