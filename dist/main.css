@@ -4,4 +4,177 @@
   box-sizing: border-box;
 }
 
+html, body {
+  font-size: 62.5%;
+}
+
+a, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 2.4rem;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.title {
+  color: #4c545d;
+  font-size: 2.4rem;
+}
+
+.text {
+  color: #9fabb2;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin: 2.4rem auto;
+}
+
+h2.title {
+  font-size: 2.8rem;
+}
+
+.introduction {
+  background-image: url(../../../assets/img/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin: 0 -2.4rem;
+  /* Negative margin for fixing the bg-image */
+  padding: 2.4rem;
+}
+.introduction-headline__title {
+  font-size: 3.2rem;
+}
+.introduction__logo {
+  margin: 8rem auto 6.4rem;
+}
+
+.features {
+  margin: 8rem auto;
+}
+.features-headline__text {
+  margin: 1.6rem auto;
+}
+.features-snippets__img {
+  margin: 4.8rem auto;
+}
+.features-snippets-content__text {
+  margin: 0.8rem auto 4.8rem;
+}
+
+.ease {
+  margin-bottom: 8rem;
+}
+.ease-headline {
+  margin: 16rem auto 4.8rem;
+}
+
+.tools-headline {
+  margin: 0 auto 6.4rem;
+}
+.tools-headline__text {
+  margin-top: 1.6rem;
+}
+.tools-articles-item {
+  margin: 6.4rem auto 0;
+}
+.tools-articles-item__img {
+  margin: 2.4rem auto;
+}
+
+.brands {
+  display: flex;
+  flex-direction: column;
+  margin: 10.4rem auto;
+}
+.brands__logo {
+  max-width: 16rem;
+  margin: 3.2rem auto;
+}
+
+.clipboard-install {
+  margin: 8rem auto 4.8rem;
+}
+
+.footer {
+  background-color: #f6f7f9;
+  margin: 0 -2.4rem;
+  /* Negative margin for fixing the bg-image */
+}
+.footer__logo {
+  max-width: 6rem;
+  margin: 4.8rem auto;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+.footer-links__link {
+  font-size: 1.8rem;
+  color: #9fabb2;
+  margin: 1.6rem auto;
+}
+.footer-links__link:hover {
+  color: #26baa4;
+}
+.footer .social-icons {
+  display: flex;
+  justify-content: center;
+}
+.footer .social-icons__icon {
+  padding: 2.4rem 1.6rem;
+  cursor: pointer;
+}
+.footer .social-icons__icon:hover {
+  filter: invert(54%) sepia(99%) saturate(318%) hue-rotate(122deg) brightness(93%) contrast(93%);
+}
+.footer .attribution {
+  margin-bottom: 0.1rem;
+}
+.footer .attribution p {
+  font-size: 1.4rem;
+  font-family: "Times New Roman", Times, serif;
+  color: #9fabb2;
+}
+.footer .attribution a {
+  color: #4c545d;
+}
+.footer .attribution a:hover {
+  text-decoration: underline;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+}
+.download__btn {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: white;
+  margin: 1.6rem auto;
+  padding: 1.6rem;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  border-radius: 4rem;
+  box-shadow: 0 0.2rem;
+}
+.download__btn:hover {
+  opacity: 0.7;
+}
+.download__btn--ios {
+  background-color: #26baa4;
+  box-shadow: 0 0.3rem #1d8c7b;
+}
+.download__btn--mac {
+  background-color: #6173ff;
+  box-shadow: 0 0.3rem #4f5ec9;
+}
+
 /*# sourceMappingURL=main.css.map */

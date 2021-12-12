@@ -1,3 +1,14 @@
-@use 'base';
-@use 'layout';
-@use 'components'
+@import './base/reset.scss';
+@import './base/colors.scss';
+@import './base/typography.scss';
+
+@import './layout/globals.scss';
+@import './layout/introduction.scss';
+@import './layout/features.scss';
+@import './layout/ease.scss';
+@import './layout/tools.scss';
+@import './layout/brands.scss';
+@import './layout/cbd-install.scss';
+@import './layout/footer.scss';
+
+@import './components/buttons.scss';
