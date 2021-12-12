@@ -1,0 +1,10 @@
+.brands {
+    display: flex;
+    flex-direction: column;
+    margin: 10.4rem auto;
+    
+    &__logo {
+        max-width: 16rem;
+        margin: 3.2rem auto;
+    }
+}

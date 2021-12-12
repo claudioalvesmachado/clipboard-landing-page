@@ -1,0 +1,19 @@
+.introduction {
+    background-image: url(../../../assets/img/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin: 0 -2.4rem; /* Negative margin for fixing the bg-image */
+    padding: 2.4rem;
+
+    &-headline {
+
+        &__title {
+            font-size: $xl-font;
+        }
+    }
+    
+    &__logo {
+        margin: 8rem auto 6.4rem;
+    }
+
+}

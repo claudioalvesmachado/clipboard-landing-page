@@ -1,0 +1,22 @@
+.features {
+    margin: 8rem auto;
+
+    &-headline__text {
+        margin: 1.6rem auto;
+    }
+
+   
+    &-snippets {
+
+        &__img {
+            margin: 4.8rem auto;
+        }
+
+        &-content {
+
+            &__text {
+                margin: .8rem auto 4.8rem;
+            }
+        }
+    }
+}

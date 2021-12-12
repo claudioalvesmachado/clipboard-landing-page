@@ -1,0 +1,26 @@
+.container{
+    font-family: $default-font;
+    font-weight: $normal;
+    text-align: center;
+    padding: 0 2.4rem;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.title {
+    color: $dark-neutral;
+    font-size: $md-font;
+}
+
+.text {
+    color: $light-neutral;
+    font-size: $sm-font;
+    line-height: 1.6;
+    margin: 2.4rem auto;
+}
+
+h2.title {
+    font-size: $lg-font;
+}
