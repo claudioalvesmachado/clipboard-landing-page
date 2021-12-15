@@ -17,7 +17,7 @@
             margin: 1.6rem auto;
 
             &:hover {
-                color: $primary-color
+                color: $primary-color;
             }
         }
     }
@@ -35,22 +35,31 @@
             }
         }
     }
+}
 
-    .attribution {
-        margin-bottom: .1rem;
+@media (min-width: 1400px) {
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 auto;
 
-        p {
-        font-size: 1.4rem;
-        font-family: 'Times New Roman', Times, serif;
-        color: $light-neutral
+        &-links {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1.6rem;
+            text-align: left;
+            margin: 2.4rem 0;
+
+            &__link {
+                padding: 0;
+                margin: .8rem 0;
+                color: $light-neutral
+            }
         }
 
-        a {
-            color: $dark-neutral;
-
-            &:hover {
-                text-decoration: underline;
-            }
+        &__logo {
+            margin: 0 2.4rem;
         }
     }
 }

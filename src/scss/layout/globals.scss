@@ -30,3 +30,21 @@ h2.title {
     text-align: center;
     margin: auto;
 }
+
+.attribution {
+    margin-bottom: .1rem;
+
+    p {
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: $light-neutral
+    }
+
+    a {
+        color: $dark-neutral;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
