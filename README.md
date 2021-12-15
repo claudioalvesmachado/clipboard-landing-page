@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-landing-page-with-sass-and-flexbox-QS4X7HSoB/
 - Live Site URL: https://claudioalvesmachado.github.io/clipboard-landing-page/
 
 ### Built with
