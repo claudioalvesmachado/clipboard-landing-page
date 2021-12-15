@@ -9,7 +9,6 @@ html, body {
 }
 
 a, a:visited {
-  color: black;
   text-decoration: none;
 }
 
@@ -40,6 +39,27 @@ h2.title {
   font-size: 2.8rem;
 }
 
+.headline {
+  max-width: 70rem;
+  text-align: center;
+  margin: auto;
+}
+
+.attribution {
+  margin-bottom: 0.1rem;
+}
+.attribution p {
+  font-size: 1.4rem;
+  font-family: "Times New Roman", Times, serif;
+  color: #9fabb2;
+}
+.attribution a {
+  color: #4c545d;
+}
+.attribution a:hover {
+  text-decoration: underline;
+}
+
 .introduction {
   background-image: url(../../../assets/img/bg-header-mobile.png);
   background-repeat: no-repeat;
@@ -49,12 +69,17 @@ h2.title {
   padding: 2.4rem;
 }
 .introduction-headline__title {
-  font-size: 3.2rem;
+  font-size: 4rem;
 }
 .introduction__logo {
   margin: 8rem auto 6.4rem;
 }
 
+@media (min-width: 760px) {
+  .introduction {
+    background-image: url(../../../assets/img/bg-header-desktop.png);
+  }
+}
 .features {
   margin: 8rem auto;
 }
@@ -68,6 +93,23 @@ h2.title {
   margin: 0.8rem auto 4.8rem;
 }
 
+@media (min-width: 1400px) {
+  .features {
+    max-width: 144rem;
+  }
+  .features-snippets {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  .features-snippets__img {
+    margin-left: -6.4rem;
+  }
+  .features-snippets-content {
+    max-width: 40rem;
+    margin-right: 24rem;
+  }
+}
 .ease {
   margin-bottom: 8rem;
 }
@@ -88,6 +130,16 @@ h2.title {
   margin: 2.4rem auto;
 }
 
+@media (min-width: 1400px) {
+  .tools-articles {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  .tools-articles-item {
+    max-width: 40rem;
+  }
+}
 .brands {
   display: flex;
   flex-direction: column;
@@ -98,6 +150,15 @@ h2.title {
   margin: 3.2rem auto;
 }
 
+@media (min-width: 1400px) {
+  .brands {
+    flex-direction: row;
+    align-items: center;
+  }
+  .brands__logo {
+    max-width: 16rem;
+  }
+}
 .clipboard-install {
   margin: 8rem auto 4.8rem;
 }
@@ -105,7 +166,7 @@ h2.title {
 .footer {
   background-color: #f6f7f9;
   margin: 0 -2.4rem;
-  /* Negative margin for fixing the bg-image */
+  /* Negative margin for fixing the bg-color */
 }
 .footer__logo {
   max-width: 6rem;
@@ -134,24 +195,35 @@ h2.title {
 .footer .social-icons__icon:hover {
   filter: invert(54%) sepia(99%) saturate(318%) hue-rotate(122deg) brightness(93%) contrast(93%);
 }
-.footer .attribution {
-  margin-bottom: 0.1rem;
-}
-.footer .attribution p {
-  font-size: 1.4rem;
-  font-family: "Times New Roman", Times, serif;
-  color: #9fabb2;
-}
-.footer .attribution a {
-  color: #4c545d;
-}
-.footer .attribution a:hover {
-  text-decoration: underline;
-}
 
+@media (min-width: 1400px) {
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.6rem;
+    text-align: left;
+    margin: 2.4rem 0;
+  }
+  .footer-links__link {
+    padding: 0;
+    margin: 0.8rem 0;
+    color: #9fabb2;
+  }
+  .footer__logo {
+    margin: 0 2.4rem;
+  }
+}
 .download {
   display: flex;
   flex-direction: column;
+  max-width: 56rem;
+  margin: auto;
 }
 .download__btn {
   font-size: 1.8rem;
@@ -175,6 +247,13 @@ h2.title {
 .download__btn--mac {
   background-color: #6173ff;
   box-shadow: 0 0.3rem #4f5ec9;
+}
+
+@media (min-width: 760px) {
+  .download {
+    flex-direction: row;
+    column-gap: 1.6rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
